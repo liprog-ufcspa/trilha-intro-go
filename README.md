@@ -1,7 +1,10 @@
 
 # Oficina Introdução à Linguagem Go
-
-## Primeiros passos para configuração do ambiente local:
+## Módulo 1
+<details>
+<summary>Instruções de instalação</summary>
+ 
+# Primeiros passos para configuração do ambiente local:
 
 ### Pré Requisitos:
  - Realizar a instalação de um editor de código ou IDE, as recomendações são o VSCode ou Goland.
@@ -63,5 +66,24 @@ Como sempre vou deixar um link de um vídeo para auxiliar caso surja alguma dúv
 
 ### 4. Por fim, faça o `git clone` deste repositório na sua máquina para acompanhar e realizar os exercícios durante a oficina!
 ### 5. Tá pronto o sorvetinho! Nos vemos novamente no dia da oficina  🐈🚀
+</details>
+
+## Módulo 2
+<details open>
+<summary>Dependências e ferramentas</summary>
+ 
+ ### Pré-Requisitos:
+ - É altamente recomendado que o GoLand seja instalado para facilitar o andamento da trilha neste módulo.
+ - Será necessário instalar o Postman para realizar requisições a API, o link para download está aqui: [Download Postman](https://www.postman.com/)
+ - Nesta etapa da oficina serão abordados conceitos de API's REST, protocolo HTTP e o banco de dados MongoDB, caso você não tenha conhecimento no assunto irei deixar alguns vídeos de apoio:
+
+ #### API's
+ [![API REST](https://img.youtube.com/vi/9SbUPqKEWcY/0.jpg)](https://www.youtube.com/watch?v=9SbUPqKEWcY)
+
+ #### MongoDB em 100 segundos
+ [![API REST](https://img.youtube.com/vi/-bt_y4Loofg/0.jpg)](https://www.youtube.com/watch?v=-bt_y4Loofg&pp=0gcJCfwAo7VqN5tD)
+
+</details>
+
 
 ### Caso surja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
