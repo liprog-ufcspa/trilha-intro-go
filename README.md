@@ -68,20 +68,87 @@ Como sempre vou deixar um link de um vídeo para auxiliar caso surja alguma dúv
 ### 5. Tá pronto o sorvetinho! Nos vemos novamente no dia da oficina  🐈🚀
 </details>
 
+<hr>
+
 ## Módulo 2
 <details open>
 <summary>Dependências e ferramentas</summary>
  
  ### Pré-Requisitos:
- - É altamente recomendado que o GoLand seja instalado para facilitar o andamento da trilha neste módulo.
+ - É altamente recomendado que o **GoLand** seja instalado para facilitar o andamento da trilha neste módulo.
  - Será necessário instalar o Postman para realizar requisições a API, o link para download está aqui: [Download Postman](https://www.postman.com/)
- - Nesta etapa da oficina serão abordados conceitos de API's REST, protocolo HTTP e o banco de dados MongoDB, caso você não tenha conhecimento no assunto irei deixar alguns vídeos de apoio:
+ - Iremos utilizar o banco de dados MongoDB no projeto deste módulo, para isso iremos criar uma conta no MongoDB Atlas.
+ - Nesta etapa da oficina serão abordados conceitos de API's REST, protocolo HTTP e o banco de dados MongoDB, caso você não tenha conhecimento no assunto irei deixar alguns vídeos de apoio.
 
- #### API's
- [![API REST](https://img.youtube.com/vi/9SbUPqKEWcY/0.jpg)](https://www.youtube.com/watch?v=9SbUPqKEWcY)
+ ### Criando banco de dados no MongoDB Atlas:
+### 1. Criar conta no MongoDB Atlas
 
- #### MongoDB em 100 segundos
- [![API REST](https://img.youtube.com/vi/-bt_y4Loofg/0.jpg)](https://www.youtube.com/watch?v=-bt_y4Loofg&pp=0gcJCfwAo7VqN5tD)
+#### Passos:
+1. Acesse: [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
+2. Clique em **“Get Started”**
+3. Escolha entre:
+   - Criar com e-mail e senha
+   - Ou usar conta do **Google**, **GitHub**, etc.
+4. Caso sejam feitas algumas perguntas é só clicar em Skip logo abaixo
+5. Complete o cadastro
+
+---
+
+### 2. Criar um Cluster gratuito
+
+#### Passos:
+1. Após o login, você será direcionado para criar um cluster
+2. Escolha a opção **Free (Shared Cluster)**
+3. Selecione a **região** desejada (ex: `South America (São Paulo)` ou `AWS / us-east-1`)
+4. Clique em **“Create Deployment”**
+5. Aguarde a criação (leva de 1 a 2 minutos)
+
+---
+
+### 3. Criar usuário de acesso ao banco
+
+#### Passos:
+1. Você irá se deparar com uma tela para criar usuário
+2. Crie um **Username** e um **Password** para esse usuário, iremos usar esses dados para conectar no banco.
+3. Após isso pode clicar em **Close**
+---
+
+### 4. Liberar acesso ao IP
+
+#### Passos:
+1. Vá em **Network Access**
+2. Clique em **“+ ADD IP ADDRESS”** ou **Edit** caso você já tenha um para acessar o banco
+3. Escolha:
+   - **ALLOW ACCESS FROM ANYWHERE** (`0.0.0.0/0`)
+4. Clique em **Confirm**
+
+---
+
+### 5. Criar o banco de dados `trilha-go` com a collection `users`
+
+#### Passos:
+1. Vá em **Database** > selecione seu cluster > clique em **“Add Data”**
+2. Clique em **“+ Create Database”**
+3. Preencha os campos:
+   - **Database Name**: `trilha-go`
+   - **Collection Name**: `users`
+4. Clique em **“Create”**
+
+
+## Vídeos de Apoio
+
+---
+#### O que é uma API REST?
+<a href="https://www.youtube.com/watch?v=9SbUPqKEWcY">
+  <img src="https://img.youtube.com/vi/9SbUPqKEWcY/0.jpg" alt="API REST" width="300"/>
+</a>
+
+<hr>
+
+#### MongoDB em 100 segundos
+<a href="https://www.youtube.com/watch?v=-bt_y4Loofg">
+  <img src="https://img.youtube.com/vi/-bt_y4Loofg/0.jpg" alt="MongoDB" width="300"/>
+</a>
 
 </details>
 
